@@ -25,3 +25,22 @@ print(jap_list)
 eng_list = ["The", "fox", "jumped", "over", "the", "fence", "."]
 join_string = " ".join(eng_list).replace(" .", ".")
 print(join_string)
+
+# 6. 文字列のsをドル記号に置き換える
+eng_str2 = "A screaming comes across the sky"
+print(eng_str2.replace("s", "$"))
+
+# 7. 文字列の中で最初に「m」が出現するインデックスを調べる
+print("Hemingway".index("m"))
+
+# 8. クォーと文字列
+print("can\'t get enough")
+
+# 9. 文字列を「＋」で結合.「*」で同じ文字列
+str2 = " three"
+print(str2 + str2 + str2)
+print(str2 * 3)
+
+# 10. スライス
+jap_str2 = "四月の晴れた寒い日で、時計がどれも十三時を打っていた。"
+print(jap_str2[:jap_str2.index("、")])
